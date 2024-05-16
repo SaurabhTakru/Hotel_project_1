@@ -49,7 +49,7 @@ class Hotel:
                  if(item==x):
                      return(sweet[x])
         
-
+dsawsaassas
 print("Welcome to the Hotel")
 
 cat = {1:'curry',2:"sweet",3:"Non_veg"}
@@ -57,15 +57,15 @@ for x in cat:
     print(cat[x])
 out = input("What would you like to have: ")
 out = out.lower()
-print(out)
 
-# obj = Hotel()
-# amount = obj.Menu(out)
-# cgst= ((18 * amount)/100)
-# sgst= ((9 * amount)/100)
-# Total_bill =  amount + (cgst)+(sgst)
-# print("Food is getting prepared")
-# print("Your total bill is: ",round(Total_bill,2))
+
+obj = Hotel()
+amount = obj.Menu(out)
+cgst= ((18 * amount)/100)
+sgst= ((9 * amount)/100)
+Total_bill =  amount + (cgst)+(sgst)
+print("Food is getting prepared")
+print("Your total bill is: ",round(Total_bill,2))
    
     
 
