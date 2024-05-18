@@ -49,7 +49,7 @@ class Hotel:
                  if(item==x):
                      return(sweet[x])
         
-dsawsaassas
+
 print("Welcome to the Hotel")
 
 cat = {1:'curry',2:"sweet",3:"Non_veg"}
